@@ -3,7 +3,7 @@ import { useRouter } from 'next/router';
 
 import { getFeaturedEvents } from '@/dummy-data';
 import EventList from '../../components/event-list';
-import ResultsTitle from '../../components/result-title';
+import ResultsTitle from '../../components/result-title/result-title';
 import Button from '../../components/ui/button'
 import ErrorAlert from '@/components/ui/error-alert';
 
