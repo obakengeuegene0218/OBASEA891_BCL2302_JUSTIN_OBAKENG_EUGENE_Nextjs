@@ -9,8 +9,8 @@ import { useRouter } from "next/router";
 import { getAllEvents } from "../../dummy-data";
 
 // Import the EventList and EventsSearch components
-import EventList from "../../components/events/event-list";
-import EventsSearch from "../../components/events/events-search";
+import EventList from "../../components/event-list";
+import EventsSearch from "../../components/events-search";
 
 /**
  * Functional component for the All Events Page.
