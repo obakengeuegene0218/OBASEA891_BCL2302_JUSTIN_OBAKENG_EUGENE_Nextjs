@@ -37,7 +37,7 @@ export async function getStaticProps(context) {
   const eventId = context.params.eventId;
 
   const event = await getEventById(eventId);
-
+console.log(event);
   return {
     props: {
       selectedEvent: event
