@@ -2,8 +2,8 @@ import { Fragment } from 'react';
 import { useRouter } from 'next/router';
 
 import { getAllEvents } from '../../helpers/api-util';
-import EventList from '../../components/event-list';
-import EventsSearch from '../../components/events-search';
+import EventList from '../../components/events/event-list';
+import EventsSearch from '../../components/events/events-search';
 
 function AllEventsPage(props) {
   const router = useRouter();
