@@ -18,7 +18,9 @@ function FilteredEventsPage(props) {
   const { data, error } = useSWR(
     'https://nextjs-course-c81cc-default-rtdb.firebaseio.com/events.json',
     (url) => fetch(url).then(res => res.json())
-  );
+    .catch(error =>console.log(error))
+  )
+  
 
   useEffect(() => {
     if (data) {
